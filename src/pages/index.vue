@@ -179,5 +179,7 @@ export default {
 
 .overlayContent{
   width: 500px !important;
+  max-width: calc(100% - 48px);
+  max-height: calc(100% - 48px);
 }
 </style>
